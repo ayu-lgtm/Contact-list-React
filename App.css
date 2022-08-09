@@ -1,0 +1,48 @@
+.main {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: left;
+  margin: 5px;
+}
+
+.contact-card {
+  display: flex;
+  padding: 10px;
+  color: rgb(248, 251, 251);
+  background-color: #071c40de;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  box-shadow: 10px 10px 30px -16px black;
+  border-radius: 15px;
+
+  width: 700px;
+  height: auto;
+  max-width: 700px;
+  max-height: 230px;
+  margin: 5px;
+}
+
+.user-detail {
+  display: flex;
+
+}
+
+.contact-card p {
+  margin-left: 10px;
+  margin-top: 0;
+  font-weight: 400;
+  font-size: large;
+
+}
+
+.img {
+  width: 200px;
+  max-width: 300px;
+  max-height: 250px;
+  margin: 1px;
+}
+
+button {
+  margin-left: 10px;
+  margin-bottom: 10px;
+}
